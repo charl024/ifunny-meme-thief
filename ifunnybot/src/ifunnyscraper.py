@@ -21,10 +21,6 @@ def setWebdriver(url):
 
     return session
 
-def websiteLogin(session):
-    
-    return session
-
 def soupSearch(pagesrc):
     soup = BeautifulSoup(pagesrc, 'html.parser')
     post = soup.find('div', class_='_3ZEF')
